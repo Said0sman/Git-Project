@@ -20,7 +20,39 @@ npm start
    - Initialt så initierades repot i dagens datum foldern, så vi fick visa dolda filer och radera .`git-mappen`.
    - Sedan gjordes allt om igen men i rätt mapp.
 
-6. 
+6. Installera ett CSS ramverk i detta fallet [Tachyons](https://tachyons.io/)
+
+- Ctrl-c för att avsluta utvecklingsservern
+- `npm install tachyons@4.12.0`
+- `npm start`
+- importera Tachyons i `index.js`   
+
+7. Testa hur Tachyons fungerar lite lätt innan lunch.
+
+8. Vi skapar en "Card-komponent" som vi ska kunna återanvända.
+
+- Den innehåller en bild, h1-tagg samt p-tag
+- Refactor våran kod (slimma ner den)
+
+9. Skapar en CardList komponent som ska rendera alla robotar i robots.js.
+
+- Steg 1: Flytta innehåll från App till CardList
+- Steg 2: Loppa igenom alla robotar i robots.js och rendera dem till skärmen
+- Steg 3: Refactor
+
+
+
+
+
+
+
+## Reflektion
+
+Vi fick problem med versionshanteringen i git då `create-rect-app` också skapade ett git repo. Detta upptäcktes efter att vi skulle koppla vårt projekt till GitHub.
+
+Lösningen blev att radera .`git`-mappen i react projektet så att lektionsmappen kunde sköta versionshanteringen.
+
+En lösning hade kunnat vara lösningen under förbättringar eller att skapa ett nytt React projekt och koppla det till ett repo på GitHub.
 
 
 
