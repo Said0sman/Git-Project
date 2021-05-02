@@ -1,14 +1,11 @@
 import "./App.css";
+import Card from "./components/Cards";
 
 function App() {
   return (
     <>
-      <div className="fl w-25 bg-light-blue tc">
-        <h1>1</h1>
-      </div>
-      <div className="fl w-75 bg-light-yellow tc">
-        <h1>2</h1>
-      </div>
+  <Card id="2" name="John Doe" email="john.doe@gmail.com"/>
+  
     </>
   );
 }
