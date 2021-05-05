@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import 'tachyons';
-import {robots} from './global/robots';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App robots={robots} />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
